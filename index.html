@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>App Gallery</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+    </div>
+     <div class="slider-container">
+      <div class="slider">
+    <div class="gallery">
+        <a href="https://www.Google.com"><img src="1.png" alt="App 1"></a>
+        <a href="app2.html"><img src="2.png" alt="App 2"></a>
+        <a href="app3.html"><img src="3.png" alt="App 3"></a>
+        <!-- Add more apps as needed -->
+    </div>
+    </div>
+  </div>
+    <script src="script.js"></script>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyDOHM_mVxVVrFPWb545mIucoSW4fBJQamk",
+    authDomain: "gamar-421515.firebaseapp.com",
+    databaseURL: "https://gamar-421515-default-rtdb.firebaseio.com",
+    projectId: "gamar-421515",
+    storageBucket: "gamar-421515.appspot.com",
+    messagingSenderId: "441909945114",
+    appId: "1:441909945114:web:08db60dd1a604713c882a3"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+</body>
+</html>
